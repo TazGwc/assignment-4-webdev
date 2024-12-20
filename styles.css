@@ -1,48 +1,43 @@
-/* Styles */
-
+/*  Styles */
 body {
-  font-family: "Pacifico", cursive, sans-serif;
+  font-family: 'Cursive', sans-serif;
   color: #333;
-  background-color: #f9f9f9;
+  background-color: #f0f9f9;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #2f4f4f;
+h1, h2, h3, h4, h5 {
+  color: #2b5d5d;
 }
 
 /* Navigation Bar */
 .navbar {
-  background-color: #a8b5a5;
+  background-color: #b2e1df;
 }
 .navbar-brand {
   color: #fff !important;
 }
 .navbar-nav .nav-link {
-  color: #f4f4f4;
+  color: #e6f7f7;
 }
 .navbar-nav .nav-link:hover {
-  color: #d6e0cf;
+  color: #d1eceb;
 }
 
 /* Buttons */
 .btn-primary {
-  background-color: #758c75;
-  border-color: #758c75;
+  background-color: #73c5c3;
+  border-color: #73c5c3;
 }
 .btn-primary:hover {
-  background-color: #566a56;
+  background-color: #5ea8a6;
 }
 
 .btn-outline-dark {
-  color: #758c75;
-  border-color: #758c75;
+  color: #73c5c3;
+  border-color: #73c5c3;
 }
 .btn-outline-dark:hover {
-  background-color: #758c75;
+  background-color: #73c5c3;
   color: #fff;
 }
 
@@ -51,10 +46,10 @@ section {
   padding: 60px 0;
 }
 .bg-light {
-  background-color: #e3e8e3 !important;
+  background-color: #e0f7f7 !important;
 }
 .bg-dark {
-  background-color: #4f5b4f !important;
+  background-color: #4d6d6d !important;
   color: #fff;
 }
 
@@ -64,23 +59,21 @@ section {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .card-title {
-  color: #2f4f4f;
+  color: #2b5d5d;
 }
 
 /* Forms */
 .form-control {
-  border: 1px solid #a8b5a5;
+  border: 1px solid #b2e1df;
 }
 .form-control:focus {
-  border-color: #758c75;
-  box-shadow: 0 0 5px rgba(117, 140, 117, 0.5);
+  border-color: #73c5c3;
+  box-shadow: 0 0 5px rgba(115, 197, 195, 0.5);
 }
 
 /* Footer */
 footer {
-  background-color: #4f5b4f;
-  color: #e3e8e3;
+  background-color: #4d6d6d;
+  color: #e0f7f7;
 }
 
-/* Import Whimsical Font */
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
