@@ -1,0 +1,86 @@
+/* Styles */
+
+body {
+  font-family: "Pacifico", cursive, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2f4f4f;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #a8b5a5;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav .nav-link {
+  color: #f4f4f4;
+}
+.navbar-nav .nav-link:hover {
+  color: #d6e0cf;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #758c75;
+  border-color: #758c75;
+}
+.btn-primary:hover {
+  background-color: #566a56;
+}
+
+.btn-outline-dark {
+  color: #758c75;
+  border-color: #758c75;
+}
+.btn-outline-dark:hover {
+  background-color: #758c75;
+  color: #fff;
+}
+
+/* Section Backgrounds */
+section {
+  padding: 60px 0;
+}
+.bg-light {
+  background-color: #e3e8e3 !important;
+}
+.bg-dark {
+  background-color: #4f5b4f !important;
+  color: #fff;
+}
+
+/* Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  color: #2f4f4f;
+}
+
+/* Forms */
+.form-control {
+  border: 1px solid #a8b5a5;
+}
+.form-control:focus {
+  border-color: #758c75;
+  box-shadow: 0 0 5px rgba(117, 140, 117, 0.5);
+}
+
+/* Footer */
+footer {
+  background-color: #4f5b4f;
+  color: #e3e8e3;
+}
+
+/* Import Whimsical Font */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
