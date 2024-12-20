@@ -1,8 +1,8 @@
 /*  Styles */
 body {
-  font-family: 'Cursive', sans-serif;
+  font-family: "Pacifico", cursive, sans-serif;
   color: #333;
-  background-color: #f0f9f9;
+  background-color: #f9f9f9;
 }
 
 h1, h2, h3, h4, h5 {
@@ -76,4 +76,8 @@ footer {
   background-color: #4d6d6d;
   color: #e0f7f7;
 }
+
+/* Import Nice Font */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 
